@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_text">Olá Mundo!</string>
+    <string name="app_image_description">Imagem central do App</string>
+</resources>
