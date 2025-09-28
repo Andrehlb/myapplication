@@ -33,14 +33,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.583" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTopBottomOf="@+id/text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/boneco_android" />
-
     <!-- Botão adicionado para a funcionalidade de adicionar tarefas
      O Button possui um identificador (android:id) que é usado pelo
      View Binding para referenciar e manipular o componente no
@@ -55,6 +47,18 @@
      layout_marginTop adiciona um espaçamento fixo de 16dp
      acima, garantindo que o botão não fique colado ao componente
      superior.-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="App Center Image"
+        android:src="@drawable/boneco_android"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTopBottomOf="@+id/text" />
+
+
 
     <Button
         android:id="@+id/btn_add_task"
